@@ -1,6 +1,9 @@
 # Mucua
-Mucua is a new framework for beginning backend of the PHP
+Múcua is a new framework for beginning backend of the PHP
+Múcua é a nova ferramenta para backend iniciantes do PHP 
 
-para executar pela primeiro vez o mucua precisas criar um banco de dados 'mucua' ou modificar directamente para um novo banco de dados de sua preferência no directório 
+para executar pela primeiro vez o mucua precisas criar um banco de dados 'mucua' ou modificar directamente o nome do banco de dados para o de sua preferência no directório:
 
+ to start by first time Múcua you need criate a new data base in your mysql manager or modify especificaly the name of the bata base in the directory:
+ 
 # app\config\database.php

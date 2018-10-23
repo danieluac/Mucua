@@ -1,5 +1,7 @@
 # Mucua
-Múcua is a new framework for beginning backend of the PHP
+Múcua is a new framework for beginning backend of the PHP.
+
+
 Múcua é a nova ferramenta para backend iniciantes do PHP 
 
 para executar pela primeiro vez o mucua precisas criar um banco de dados 'mucua' ou modificar directamente o nome do banco de dados para o de sua preferência no directório:

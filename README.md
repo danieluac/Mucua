@@ -1,5 +1,5 @@
 # Mucua
-Múcua is a new framework for beginning backend of the PHP.
+Múcua is a new framework for beginner backend of the PHP.
 
 
 Múcua é a nova ferramenta para backend iniciantes do PHP 

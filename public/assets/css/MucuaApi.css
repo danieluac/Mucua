@@ -1,0 +1,153 @@
+
+/***FONTS***/
+@font-face{
+	font-family: 'CaviarDreams';
+	src: url('../fonts/Beautifulflaws.ttf');
+}
+@font-face{
+	font-family: 'CF';
+	src: url('../fonts/Pokemon Hollow.ttf');
+}
+
+
+
+/****RESET********/
+*{
+	margin: 0;
+	padding: 0;
+}
+/**********FRAMES DE OPACIDDADE***/
+html{
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+}
+
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@-moz-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-ms-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-o-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+@-webkit-keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+body{
+	background-color: rgba(251,87,12,.3);
+	font-family: 'CaviarDreams';
+}
+
+/****HEADER PAGE INDEX ***/
+
+
+img[class="img"]
+{
+    width: 100px;
+    height: auto;
+}
+.section-1
+{
+	min-height: 470px;
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+.section-1 > article
+{
+	background-color: #fff;
+	min-width: 22%;
+	min-height: 270px;
+	text-align: center;
+	padding-top: 20px;
+}
+.section-1 > .articles
+{
+	background-color: #FFF;
+	border: 1px solid #ce4729;
+	margin-top: 100px;
+}
+.section-1 > .articles h5
+{
+	color: #ce4729;
+	font-family: "CF";
+	font-size: 24px;
+}
+.section-1 > .articles p
+{
+	color: #ce4729;
+	font-family: "CaviarDreams";
+}	
+.section-1 > article h4
+{
+	margin-top: 150px;
+	color: #ce4729;
+	font-size: 34px;
+	font-family: "CF";
+}
+.section-1 > article p
+{
+	color: #ce4729;
+	font-size: 16.5px;
+	font-family: "CaviarDreams";
+	font-size: 18px;
+}
+.section-2
+{
+	background-color: #ce4729;
+	min-height: 430px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.section-2 > article
+{
+	background-color: #fff;
+	min-width: 22%;
+	min-height: 270px;
+	text-align: center;
+	padding-top: 30px;
+}
+.section-2 > article h5
+{
+	color: #ce4729;
+	font-family: "CF";
+	font-size: 24px;
+}
+.section-2 > article p
+{
+	color: #ce4729;
+	font-family: "CaviarDreams";
+	font-size: 19px;
+}
+footer
+{
+	width:100%;
+	background-color: #fff;
+	min-height: 50px !important;
+	margin-top: 0px;
+	color:#ce4729;
+	text-align:center;
+	padding:10px 0% 20px 0%;
+	border-top: 1px solid #ce4729;
+
+}
+footer > h3
+{
+	font-size:18px;
+	font-family: "CF";
+}

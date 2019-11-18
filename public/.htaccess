@@ -1,0 +1,12 @@
+Options -MultiViews
+RewriteEngine On
+Options -Indexes
+
+# set up your app address
+RewriteBase /MucuaApi/public/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?kernel=$1 [QSA,L]
